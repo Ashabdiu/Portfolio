@@ -1,0 +1,190 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-container{
+    width: 100%;
+}
+
+.flex-container{
+    width: 100%;
+    display: flex;
+    background-color: black;
+    height: 100px;
+}
+
+.menu{
+    min-width: 200px;
+    color: white;
+    font-size: 1.5em;
+    text-align: center;
+    padding-top: 35px;
+}
+
+.image-container{
+    display: flex;
+    position: relative;
+    text-align: center;
+
+}
+
+#banner-image{
+    width: 100%;
+    opacity: 0.9;
+
+
+}
+
+
+.banner-title{
+    position: absolute;
+    top: 78%;
+    left: 39%;
+    color: cornsilk;
+    font-size: 3em;
+    
+}
+
+.banner-sub{
+    position: absolute;
+    top: 85%;
+    left: 43%;
+    color: cornsilk;
+    font-size: 2em;
+    
+}
+
+.banner-text{
+    position: absolute;
+    top: 92%;
+    left: 25%;
+    color: cornsilk;
+    font-size: 1.3em;
+    
+}
+
+.skill-container{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    height: 300px;
+    margin-top: 50px;
+    flex-direction: row;
+    margin-left: auto;
+}
+
+.skill{
+    display: flex;
+    width: 100%;
+    margin-top: 40px;
+    justify-content: center;
+}
+
+#png{
+    width: 150px;
+    height: 150px;
+    margin-right:50px ;
+}
+
+#skill-text{
+    color: black;
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+.skill-container2{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    height: 300px;
+    margin-top: 50px;
+    flex-direction: row;
+    margin-left: auto;
+}
+
+.skill-heading{
+    display: flex;
+    width: 100%;
+    height: 100px;
+    color: white;
+    background-color: black;
+    font-size: 2.5em;
+    margin-bottom: 100px;
+    margin-top: 120px;
+    
+}
+
+.skill-title{
+    margin-left: 45%;
+    margin-top: 30px;
+}
+
+.about-heading{
+    display: flex;
+    width: 100%;
+    height: 100px;
+    color: white;
+    background-color: black;
+    font-size: 2.5em;
+    margin-bottom: 100px;
+    margin-top: 120px;
+}
+
+.about-title{
+    margin-left: 45%;
+    margin-top: 30px;
+    
+}
+
+.about-text{
+    font-size: 1.5em;
+    text-align: center;
+    line-height: 40px;
+}
+
+.portfolio-heading{
+     display: flex;
+     width: 100%;
+     height: 100px;
+     margin-top: 50px;
+     color: white;
+    background-color: black;
+    font-size: 2.5em;
+     margin-bottom: 10px;
+
+}
+
+.portfolio-title{
+    margin-left: 45%;
+    margin-top: 25px;
+
+}
+
+.portfolio-container{
+    display: flex;
+    margin-left: 20px;
+    margin-top: 50px;
+}
+
+#portfolio-img{
+    height: 100px;
+    width: 200px;
+    margin-left: 50px;
+}
+
+.portfolio-desc{
+    margin-left: 30px;
+}
+
+.portfolio-name{
+    font-size: 1.5em;
+    margin-left: 60px;
+}
+
+.portfolio-info{
+       font-size: 0.5em;
+    margin-left: 0px;
+    color: grey;
+    margin-top: 10px;
+}
